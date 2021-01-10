@@ -1,0 +1,19 @@
+body{
+  background-color: #202020;
+  color: #F8F9F9;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-custom{
+  background-image: url('../img/background.jpg');
+  border-bottom: 1px solid #F8F9F9;
+}
+
+.navbar-brand{
+  font-weight: 600;
+}
+
+#job-name{
+  font-size: 1.05rem;
+  font-weight: 400;
+}
