@@ -4,6 +4,7 @@ body{
   font-family: 'Quicksand', sans-serif;
 }
 
+/* Navbar */
 .navbar-custom{
   background-image: url('../img/background.jpg');
   border-bottom: 1px solid #F8F9F9;
@@ -42,4 +43,19 @@ body{
   font-size: 20px;
   vertical-align: middle;
   margin-right: .2rem;
+}
+
+/* Infos & Links */
+#info-links a{
+  text-decoration: none;
+  color: inherit;
+}
+
+#info-links a:hover{
+  text-decoration: underline;
+  color: rgb(111, 175, 255);
+}
+
+#info-links i{
+  margin-right: .3rem;
 }
