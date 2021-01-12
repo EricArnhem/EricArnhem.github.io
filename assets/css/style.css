@@ -54,6 +54,10 @@ body{
   margin-right: .6rem;
 }
 
+#info-personnal{
+  border-bottom: 1px solid #004eff;
+}
+
 #info-links a{
   text-decoration: none;
   color: inherit;
@@ -61,5 +65,5 @@ body{
 
 #info-links a:hover{
   text-decoration: underline;
-  color: rgb(111, 175, 255);
+  color: #81a7ff;
 }
