@@ -46,6 +46,14 @@ body{
 }
 
 /* Infos & Links */
+#info-part{
+  font-size: 1.1rem;
+}
+
+#info-part i{
+  margin-right: .6rem;
+}
+
 #info-links a{
   text-decoration: none;
   color: inherit;
@@ -54,8 +62,4 @@ body{
 #info-links a:hover{
   text-decoration: underline;
   color: rgb(111, 175, 255);
-}
-
-#info-links i{
-  margin-right: .3rem;
 }
