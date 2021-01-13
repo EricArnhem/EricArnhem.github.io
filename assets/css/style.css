@@ -73,11 +73,11 @@ h2{
 }
 
 /* Infos & Links */
-#info-block{
+#block-info{
   font-size: 1.1rem;
 }
 
-#info-block i{
+#block-info i{
   margin-right: .6rem;
 }
 
@@ -96,7 +96,7 @@ h2{
 }
 
 /* Skills */
-#skill-block i{
+#block-skill i{
   margin-right: .6rem;
 }
 
