@@ -273,3 +273,8 @@ h2{
   background-color: #f18d00;
   width: var(--pencil-percentage);
 }
+
+/* -- Languages -- */
+#skill-english{
+  list-style-image: url(../img/logos/uk_flag.png);
+}
