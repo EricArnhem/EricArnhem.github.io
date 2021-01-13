@@ -8,6 +8,8 @@
   --jquery-percentage: 50%;
   --php-percentage: 60%;
   --sql-percentage: 60%;
+  --windows-percentage: 80%;
+  --linux-percentage: 70%;
 }
 
 body{
@@ -94,7 +96,7 @@ h2{
   font-weight: bold;
 }
 
-#skill-list li{
+.skill-list li{
   margin-bottom: .75rem;
 }
 
@@ -102,11 +104,13 @@ h2{
   margin-top: .75rem;
 }
 
-#skill-list .progress{
+.skill-list .progress{
   height: 20px;
   font-size: 1rem;
 }
 
+/* Skill list items */
+/* -- Languages -- */
 #skill-html{
   list-style-image: url(../img/logos/html5.png);
 }
@@ -168,4 +172,23 @@ h2{
 #skill-sql .progress-bar{
   background-color: #4479a1;
   width: var(--sql-percentage);
+}
+
+/* -- OS -- */
+#skill-windows{
+  list-style-image: url(../img/logos/windows.png);
+}
+
+#skill-windows .progress-bar{
+  background-color: #11a2ea;
+  width: var(--windows-percentage);
+}
+
+#skill-linux{
+  list-style-image: url(../img/logos/linux.png);
+}
+
+#skill-linux .progress-bar{
+  background-color: #fdc13a;
+  width: var(--linux-percentage);
 }
