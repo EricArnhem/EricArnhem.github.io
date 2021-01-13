@@ -10,6 +10,14 @@
   --sql-percentage: 60%;
   --windows-percentage: 80%;
   --linux-percentage: 70%;
+  --vscode-percentage: 70%;
+  --nano-percentage: 90%;
+  --commandline-percentage: 60%;
+  --git-percentage: 70%;
+  --github-percentage: 70%;
+  --wamp-percentage: 50%;
+  --paintnet-percentage: 80%;
+  --pencil-percentage: 70%;
 }
 
 body{
@@ -191,4 +199,77 @@ h2{
 #skill-linux .progress-bar{
   background-color: #fdc13a;
   width: var(--linux-percentage);
+}
+
+/* -- Tools -- */
+#skill-vscode{
+  list-style-image: url(../img/logos/vscode.png);
+}
+
+#skill-vscode .progress-bar{
+  background-color: #1887d1;
+  width: var(--vscode-percentage);
+}
+
+#skill-nano{
+  list-style-image: url(../img/logos/nano.png);
+}
+
+#skill-nano .progress-bar{
+  background-color: #7C00CD;
+  width: var(--nano-percentage);
+}
+
+#skill-commandline{
+  list-style-image: url(../img/logos/commandline.png);
+}
+
+#skill-commandline .progress-bar{
+  background-color: #2b2b2b;
+  width: var(--commandline-percentage);
+}
+
+#skill-git{
+  list-style-image: url(../img/logos/git.png);
+}
+
+#skill-git .progress-bar{
+  background-color: #ea4e44;
+  width: var(--git-percentage);
+}
+
+#skill-github{
+  list-style-image: url(../img/logos/github.png);
+}
+
+#skill-github .progress-bar{
+  background-color: #161b22;
+  width: var(--github-percentage);
+}
+
+#skill-wamp{
+  list-style-image: url(../img/logos/wamp.png);
+}
+
+#skill-wamp .progress-bar{
+  background-color: #ff0099;
+  width: var(--wamp-percentage);
+}
+
+#skill-paintnet{
+  list-style-image: url(../img/logos/paintnet.png);
+}
+
+#skill-paintnet .progress-bar{
+  background-color: #7293c4;
+  width: var(--paintnet-percentage);
+}
+
+#skill-pencil{
+  list-style-image: url(../img/logos/pencil.png);
+}
+
+#skill-pencil .progress-bar{
+  background-color: #f18d00;
+  width: var(--pencil-percentage);
 }
