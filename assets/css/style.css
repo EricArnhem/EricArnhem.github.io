@@ -278,3 +278,29 @@ h2{
 #skill-english{
   list-style-image: url(../img/logos/uk_flag.png);
 }
+
+/* Training */
+#training-list{
+  line-height: 30px;
+}
+
+.training-item{
+  margin-bottom: 1.25rem;
+}
+
+.training-title{
+  font-weight: 600;
+}
+
+.training-description{
+  list-style: square;
+}
+
+#link-e2n{
+  color: #F8F9F9;
+}
+
+#link-e2n:hover{
+  color: #E95420;
+  opacity: 1;
+}
