@@ -1,7 +1,18 @@
+:root{
+  --accent-color: #8400ff;
+  /* Skills percentages */
+  --html-percentage: 80%;
+}
+
 body{
   background-color: #202020;
   color: #F8F9F9;
   font-family: 'Quicksand', sans-serif;
+}
+
+h2{
+  border-bottom: 1px solid var(--accent-color);
+  text-align: center;
 }
 
 /* Navbar */
@@ -46,16 +57,16 @@ body{
 }
 
 /* Infos & Links */
-#info-part{
+#info-block{
   font-size: 1.1rem;
 }
 
-#info-part i{
+#info-block i{
   margin-right: .6rem;
 }
 
 #info-personnal{
-  border-bottom: 1px solid #004eff;
+  border-bottom: 1px solid var(--accent-color);
 }
 
 #info-links a{
@@ -66,4 +77,37 @@ body{
 #info-links a:hover{
   text-decoration: underline;
   color: #81a7ff;
+}
+
+/* Skills */
+#skill-block i{
+  margin-right: .6rem;
+}
+
+.skill-name{
+  font-weight: bold;
+}
+
+
+#skill-list .progress{
+  height: 20px;
+  font-size: 1rem;
+}
+
+#skill-html{
+  list-style-image: url(../img/logos/html5.png);
+}
+
+#skill-html .progress-bar{
+  background-color: #E44D26;
+  width: var(--html-percentage);
+}
+
+#skill-css{
+  list-style-image: url(../img/logos/css3.png);
+}
+
+#skill-css .progress-bar{
+  background-color: #1A5AA7;
+  width: var(--html-percentage);
 }
