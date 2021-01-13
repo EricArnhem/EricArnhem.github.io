@@ -2,6 +2,12 @@
   --accent-color: #8400ff;
   /* Skills percentages */
   --html-percentage: 80%;
+  --css-percentage: 80%;
+  --bootstrap-percentage: 70%;
+  --js-percentage: 50%;
+  --jquery-percentage: 50%;
+  --php-percentage: 60%;
+  --sql-percentage: 60%;
 }
 
 body{
@@ -88,6 +94,13 @@ h2{
   font-weight: bold;
 }
 
+#skill-list li{
+  margin-bottom: .75rem;
+}
+
+.framework-list{
+  margin-top: .75rem;
+}
 
 #skill-list .progress{
   height: 20px;
@@ -109,5 +122,50 @@ h2{
 
 #skill-css .progress-bar{
   background-color: #1A5AA7;
-  width: var(--html-percentage);
+  width: var(--css-percentage);
+}
+
+#skill-bootstrap{
+  list-style-image: url(../img/logos/bootstrap.png);
+}
+
+#skill-bootstrap .progress-bar{
+  background-color: #624A86;
+  width: var(--bootstrap-percentage);
+}
+
+#skill-js{
+  list-style-image: url(../img/logos/js.png);
+}
+
+#skill-js .progress-bar{
+  background-color: #DEC730;
+  width: var(--js-percentage);
+}
+
+#skill-jquery{
+  list-style-image: url(../img/logos/jquery.png);
+}
+
+#skill-jquery .progress-bar{
+  background-color: #0769ad;
+  width: var(--jquery-percentage);
+}
+
+#skill-php{
+  list-style-image: url(../img/logos/php.png);
+}
+
+#skill-php .progress-bar{
+  background-color: #8892be;
+  width: var(--php-percentage);
+}
+
+#skill-sql{
+  list-style-image: url(../img/logos/mysql.png);
+}
+
+#skill-sql .progress-bar{
+  background-color: #4479a1;
+  width: var(--sql-percentage);
 }
