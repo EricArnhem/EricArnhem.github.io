@@ -31,6 +31,10 @@ h2{
   text-align: center;
 }
 
+.fw-600{
+  font-weight: 600;
+}
+
 /* Navbar */
 .navbar-custom{
   background-image: url('../img/background.jpg');
@@ -288,10 +292,6 @@ h2{
   margin-bottom: 1.25rem;
 }
 
-.training-title{
-  font-weight: 600;
-}
-
 .training-description{
   list-style: square;
 }
@@ -303,4 +303,21 @@ h2{
 #link-e2n:hover{
   color: #E95420;
   opacity: 1;
+}
+
+/* Experiences */
+#experience-list{
+  line-height: 30px;
+}
+
+.experience-item{
+  margin-bottom: 1.25rem;
+}
+
+.experience-title{
+  font-size: 1.1rem;
+}
+
+.experience-tools{
+  list-style: square;
 }
