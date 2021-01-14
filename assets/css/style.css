@@ -39,6 +39,10 @@ h2{
   font-weight: 600;
 }
 
+footer{
+  border-top: 1px solid rgb(222 226 230 / 36%);
+}
+
 /* Navbar */
 .navbar-custom{
   background-image: url('../img/background.jpg');
