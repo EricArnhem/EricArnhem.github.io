@@ -26,6 +26,10 @@ body{
   font-family: 'Quicksand', sans-serif;
 }
 
+#main-row{
+  max-width: 2000px;
+}
+
 h2{
   border-bottom: 1px solid var(--accent-color);
   text-align: center;
