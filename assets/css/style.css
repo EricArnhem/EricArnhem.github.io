@@ -321,3 +321,18 @@ h2{
 .experience-tools{
   list-style: square;
 }
+
+/* Hobbies */
+#hobbies-list i{
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+#hobbies-list li{
+  margin-bottom: .75rem;
+}
+
+.hobbies-icon-container{
+  min-width: 50px;
+  display: inline-block;
+}
