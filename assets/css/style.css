@@ -43,7 +43,7 @@ footer{
   border-top: 1px solid rgb(222 226 230 / 36%);
 }
 
-/* Navbar */
+/* NAVBAR */
 .navbar-custom{
   background-image: url('../img/background.jpg');
   border-bottom: 1px solid #F8F9F9;
@@ -84,7 +84,7 @@ footer{
   margin-right: .2rem;
 }
 
-/* Infos & Links */
+/* INFOS AND LINKS */
 #block-info{
   font-size: 1.1rem;
 }
@@ -107,7 +107,62 @@ footer{
   color: #81a7ff;
 }
 
-/* Skills */
+/* TRAINING */
+#training-list{
+  line-height: 30px;
+}
+
+.training-item{
+  margin-bottom: 1.25rem;
+}
+
+.training-description{
+  list-style: square;
+}
+
+#link-e2n{
+  color: #F8F9F9;
+}
+
+#link-e2n:hover{
+  color: #E95420;
+  opacity: 1;
+}
+
+/* EXPERIENCES */
+#experience-list{
+  line-height: 30px;
+}
+
+.experience-item{
+  margin-bottom: 1.25rem;
+}
+
+.experience-title{
+  font-size: 1.1rem;
+}
+
+.experience-tools{
+  list-style: square;
+}
+
+/* HOBBIES */
+#hobbies-list i{
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+#hobbies-list li{
+  margin-bottom: .75rem;
+}
+
+.hobbies-icon-container{
+  min-width: 50px;
+  display: inline-block;
+  text-align: center;
+}
+
+/* SKILLS */
 #block-skill i{
   margin-right: .6rem;
 }
@@ -130,7 +185,7 @@ footer{
 }
 
 /* Skill list items */
-/* -- Languages -- */
+/* -- Computer Languages -- */
 #skill-html{
   list-style-image: url(../img/logos/html5.png);
 }
@@ -289,59 +344,4 @@ footer{
 /* -- Languages -- */
 #skill-english{
   list-style-image: url(../img/logos/uk_flag.png);
-}
-
-/* Training */
-#training-list{
-  line-height: 30px;
-}
-
-.training-item{
-  margin-bottom: 1.25rem;
-}
-
-.training-description{
-  list-style: square;
-}
-
-#link-e2n{
-  color: #F8F9F9;
-}
-
-#link-e2n:hover{
-  color: #E95420;
-  opacity: 1;
-}
-
-/* Experiences */
-#experience-list{
-  line-height: 30px;
-}
-
-.experience-item{
-  margin-bottom: 1.25rem;
-}
-
-.experience-title{
-  font-size: 1.1rem;
-}
-
-.experience-tools{
-  list-style: square;
-}
-
-/* Hobbies */
-#hobbies-list i{
-  font-size: 2rem;
-  vertical-align: middle;
-}
-
-#hobbies-list li{
-  margin-bottom: .75rem;
-}
-
-.hobbies-icon-container{
-  min-width: 50px;
-  display: inline-block;
-  text-align: center;
 }
