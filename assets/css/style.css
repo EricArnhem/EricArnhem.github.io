@@ -107,17 +107,61 @@ footer{
   color: #81a7ff;
 }
 
-/* TRAINING */
-#training-list{
-  line-height: 30px;
+/* TRAINING TIMELINE */
+#training-timeline{
+  border-left: 4px solid #81a7ff;
+  line-height: 1.4rem;
+  padding: 25px;
+  list-style: none;
+  font-weight: 300;
 }
 
-.training-item{
-  margin-bottom: 1.25rem;
+.training-event{
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.6);
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+/* Date of the event */
+.training-event::before{
+    top: 0;
+    left: -165px;
+    content: attr(data-date);
+    color: rgba(248, 249, 249, 0.8);
+    font-size: 0.9rem;
+    text-align: right;
+    min-width: 120px;
+    position: absolute;
+    display: block;
+}
+
+/* Dot that shows the event on the timeline */
+.training-event::after {
+  top: 5px;
+  left: -31.85px;
+  content: "";
+  background: #313534;
+  box-shadow: 0 0 0 4px #81a7ff;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  position: absolute;
+  display: block;
+}
+
+.training-title{
+  font-weight: 600;
+  font-size: 1.25rem;
 }
 
 .training-description{
   list-style: square;
+  margin-top: 1rem;
+}
+
+.training-description li{
+  margin-bottom: .5rem;
 }
 
 #link-e2n{
