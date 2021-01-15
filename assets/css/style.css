@@ -343,4 +343,5 @@ footer{
 .hobbies-icon-container{
   min-width: 50px;
   display: inline-block;
+  text-align: center;
 }
