@@ -46,7 +46,7 @@ footer{
 /* For xs and sm displays */
 @media (max-width: 767px){
   /* Removes the horizontal padding on the container and the row */
-  .container-fluid, #main-row>*{
+  #main-container, #main-row>*{
     padding-left: 0;
     padding-right: 0;
   }
