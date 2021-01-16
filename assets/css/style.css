@@ -1,5 +1,25 @@
 :root{
   --accent-color: #8400ff;
+
+  /* Skills colors */
+  --html-color: #E44D26;
+  --css-color: #1A5AA7;
+  --bootstrap-color: #614092;
+  --js-color: #D4B800;
+  --jquery-color: #0769ad;
+  --php-color: #8892be;
+  --sql-color: #4479a1;
+  --windows-color: #1894CE;
+  --linux-color: #E5AA34;
+  --vscode-color: #1887d1;
+  --nano-color: #8518CE;
+  --commandline-color: #2b2b2b;
+  --git-color: #ea4e44;
+  --github-color: #161b22;
+  --wamp-color: #CE1885;
+  --paintnet-color: #7293c4;
+  --pencil-color: #f18d00;
+
   /* Skills percentages */
   --html-percentage: 80%;
   --css-percentage: 80%;
@@ -270,7 +290,7 @@ footer{
 }
 
 #skill-html .progress-bar{
-  background-color: #E44D26;
+  background-color: var(--html-color);
   width: var(--html-percentage);
 }
 
@@ -279,7 +299,7 @@ footer{
 }
 
 #skill-css .progress-bar{
-  background-color: #1A5AA7;
+  background-color: var(--css-color);
   width: var(--css-percentage);
 }
 
@@ -288,7 +308,7 @@ footer{
 }
 
 #skill-bootstrap .progress-bar{
-  background-color: #614092;
+  background-color: var(--bootstrap-color);
   width: var(--bootstrap-percentage);
 }
 
@@ -297,7 +317,7 @@ footer{
 }
 
 #skill-js .progress-bar{
-  background-color: #D4B800;
+  background-color: var(--js-color);
   width: var(--js-percentage);
 }
 
@@ -306,7 +326,7 @@ footer{
 }
 
 #skill-jquery .progress-bar{
-  background-color: #0769ad;
+  background-color: var(--jquery-color);
   width: var(--jquery-percentage);
 }
 
@@ -315,7 +335,7 @@ footer{
 }
 
 #skill-php .progress-bar{
-  background-color: #8892be;
+  background-color: var(--php-color);
   width: var(--php-percentage);
 }
 
@@ -324,7 +344,7 @@ footer{
 }
 
 #skill-sql .progress-bar{
-  background-color: #4479a1;
+  background-color: var(--sql-color);
   width: var(--sql-percentage);
 }
 
@@ -334,7 +354,7 @@ footer{
 }
 
 #skill-windows .progress-bar{
-  background-color: #1894CE;
+  background-color: var(--windows-color);
   width: var(--windows-percentage);
 }
 
@@ -343,7 +363,7 @@ footer{
 }
 
 #skill-linux .progress-bar{
-  background-color: #E5AA34;
+  background-color: var(--linux-color);
   width: var(--linux-percentage);
 }
 
@@ -353,7 +373,7 @@ footer{
 }
 
 #skill-vscode .progress-bar{
-  background-color: #1887d1;
+  background-color: var(--vscode-color);
   width: var(--vscode-percentage);
 }
 
@@ -362,7 +382,7 @@ footer{
 }
 
 #skill-nano .progress-bar{
-  background-color: #8518CE;
+  background-color: var(--nano-color);
   width: var(--nano-percentage);
 }
 
@@ -371,7 +391,7 @@ footer{
 }
 
 #skill-commandline .progress-bar{
-  background-color: #2b2b2b;
+  background-color: var(--commandline-color);
   width: var(--commandline-percentage);
 }
 
@@ -380,7 +400,7 @@ footer{
 }
 
 #skill-git .progress-bar{
-  background-color: #ea4e44;
+  background-color: var(--git-color);
   width: var(--git-percentage);
 }
 
@@ -389,7 +409,7 @@ footer{
 }
 
 #skill-github .progress-bar{
-  background-color: #161b22;
+  background-color: var(--github-color);
   width: var(--github-percentage);
 }
 
@@ -398,7 +418,7 @@ footer{
 }
 
 #skill-wamp .progress-bar{
-  background-color: #CE1885;
+  background-color: var(--wamp-color);
   width: var(--wamp-percentage);
 }
 
@@ -407,7 +427,7 @@ footer{
 }
 
 #skill-paintnet .progress-bar{
-  background-color: #7293c4;
+  background-color: var(--paintnet-color);
   width: var(--paintnet-percentage);
 }
 
@@ -416,7 +436,7 @@ footer{
 }
 
 #skill-pencil .progress-bar{
-  background-color: #f18d00;
+  background-color: var(--pencil-color);
   width: var(--pencil-percentage);
 }
 
