@@ -35,8 +35,8 @@ h2{
   text-align: center;
 }
 
-.fw-600{
-  font-weight: 600;
+.fw-500{
+  font-weight: 500;
 }
 
 footer{
@@ -107,8 +107,8 @@ footer{
   color: #81a7ff;
 }
 
-/* TRAINING TIMELINE */
-#training-timeline{
+/* TRAINING & EXPERIENCES TIMELINES */
+#training-timeline, #experience-timeline{
   border-left: 4px solid #81a7ff;
   line-height: 1.4rem;
   padding: 25px;
@@ -116,7 +116,7 @@ footer{
   font-weight: 300;
 }
 
-.training-event{
+.training-event, .experience-event{
   border-bottom: 1px dashed rgba(255, 255, 255, 0.6);
   padding-bottom: 25px;
   margin-bottom: 25px;
@@ -124,7 +124,7 @@ footer{
 }
 
 /* Date of the event */
-.training-event::before{
+.training-event::before, .experience-event::before{
     top: 0;
     left: -165px;
     content: attr(data-date);
@@ -137,7 +137,7 @@ footer{
 }
 
 /* Dot that shows the event on the timeline */
-.training-event::after {
+.training-event::after, .experience-event::after{
   top: 5px;
   left: -31.85px;
   content: "";
@@ -150,12 +150,12 @@ footer{
   display: block;
 }
 
-.training-title{
+.training-title, .experience-title{
   font-weight: 600;
   font-size: 1.25rem;
 }
 
-.training-description{
+.training-description, .experience-tools{
   list-style: square;
   margin-top: 1rem;
 }
@@ -171,23 +171,6 @@ footer{
 #link-e2n:hover{
   color: #E95420;
   opacity: 1;
-}
-
-/* EXPERIENCES */
-#experience-list{
-  line-height: 30px;
-}
-
-.experience-item{
-  margin-bottom: 1.25rem;
-}
-
-.experience-title{
-  font-size: 1.1rem;
-}
-
-.experience-tools{
-  list-style: square;
 }
 
 /* HOBBIES */
