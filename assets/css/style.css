@@ -160,14 +160,21 @@ footer{
 /* Date of the event */
 .training-event::before, .experience-event::before{
     top: 0;
-    left: -165px;
+    left: -145px;
     content: attr(data-date);
     color: rgba(248, 249, 249, 0.8);
     font-size: 0.9rem;
     text-align: right;
-    min-width: 120px;
+    width: 100px;
     position: absolute;
     display: block;
+}
+
+@media (max-width: 400px){
+  .training-event::before, .experience-event::before{
+    left: -130px;
+    width: 80px;
+  }
 }
 
 /* Dot that shows the event on the timeline */
