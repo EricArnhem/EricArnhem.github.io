@@ -123,6 +123,10 @@ footer{
   position: relative;
 }
 
+.training-event:last-of-type, .experience-event:last-of-type{
+  border-bottom: 0;
+}
+
 /* Date of the event */
 .training-event::before, .experience-event::before{
     top: 0;
