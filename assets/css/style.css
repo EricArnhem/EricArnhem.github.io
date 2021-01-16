@@ -112,6 +112,7 @@ footer{
   border-left: 4px solid #81a7ff;
   line-height: 1.4rem;
   padding: 25px;
+  padding-bottom: .25rem;
   list-style: none;
   font-weight: 300;
 }
@@ -166,7 +167,7 @@ footer{
   margin-top: 1rem;
 }
 
-.training-description li{
+.training-description li, .experience-tools li{
   margin-bottom: .5rem;
 }
 
