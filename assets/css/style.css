@@ -165,6 +165,22 @@ footer{
   color: #81a7ff;
 }
 
+/* HOBBIES */
+#hobbies-list i{
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+#hobbies-list li{
+  margin-bottom: .75rem;
+}
+
+.hobbies-icon-container{
+  min-width: 50px;
+  display: inline-block;
+  text-align: center;
+}
+
 /* TRAINING & EXPERIENCES TIMELINES */
 #training-timeline, #experience-timeline{
   border-left: 4px solid #81a7ff;
@@ -201,6 +217,7 @@ footer{
     display: block;
 }
 
+/* Reduces the width of the date so it can wrap */
 @media (max-width: 400px){
   .training-event::before, .experience-event::before{
     left: -130px;
@@ -243,22 +260,6 @@ footer{
 #link-e2n:hover{
   color: #E95420;
   opacity: 1;
-}
-
-/* HOBBIES */
-#hobbies-list i{
-  font-size: 2rem;
-  vertical-align: middle;
-}
-
-#hobbies-list li{
-  margin-bottom: .75rem;
-}
-
-.hobbies-icon-container{
-  min-width: 50px;
-  display: inline-block;
-  text-align: center;
 }
 
 /* SKILLS */
