@@ -125,6 +125,8 @@ footer{
 
 .training-event:last-of-type, .experience-event:last-of-type{
   border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 /* Date of the event */
