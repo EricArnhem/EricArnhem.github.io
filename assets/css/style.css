@@ -253,6 +253,7 @@ footer{
   margin-bottom: .5rem;
 }
 
+/* TRAINING */
 #link-e2n{
   color: #F8F9F9;
 }
@@ -260,6 +261,31 @@ footer{
 #link-e2n:hover{
   color: #E95420;
   opacity: 1;
+}
+
+/* EXPERIENCES */
+.html-tool{
+  border-bottom: 2px solid var(--html-color);
+}
+
+.css-tool{
+  border-bottom: 2px solid var(--css-color);
+}
+
+.bootstrap-tool{
+  border-bottom: 2px solid var(--bootstrap-color);
+}
+
+.php-tool{
+  border-bottom: 2px solid var(--php-color);
+}
+
+.js-tool{
+  border-bottom: 2px solid var(--js-color);
+}
+
+.jquery-tool{
+  border-bottom: 2px solid var(--jquery-color);
 }
 
 /* SKILLS */
