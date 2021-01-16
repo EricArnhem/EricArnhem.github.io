@@ -236,7 +236,7 @@ footer{
 }
 
 #skill-bootstrap .progress-bar{
-  background-color: #624A86;
+  background-color: #614092;
   width: var(--bootstrap-percentage);
 }
 
@@ -245,7 +245,7 @@ footer{
 }
 
 #skill-js .progress-bar{
-  background-color: #DEC730;
+  background-color: #D4B800;
   width: var(--js-percentage);
 }
 
@@ -282,7 +282,7 @@ footer{
 }
 
 #skill-windows .progress-bar{
-  background-color: #11a2ea;
+  background-color: #1894CE;
   width: var(--windows-percentage);
 }
 
@@ -291,7 +291,7 @@ footer{
 }
 
 #skill-linux .progress-bar{
-  background-color: #fdc13a;
+  background-color: #E5AA34;
   width: var(--linux-percentage);
 }
 
@@ -310,7 +310,7 @@ footer{
 }
 
 #skill-nano .progress-bar{
-  background-color: #7C00CD;
+  background-color: #8518CE;
   width: var(--nano-percentage);
 }
 
@@ -346,7 +346,7 @@ footer{
 }
 
 #skill-wamp .progress-bar{
-  background-color: #ff0099;
+  background-color: #CE1885;
   width: var(--wamp-percentage);
 }
 
