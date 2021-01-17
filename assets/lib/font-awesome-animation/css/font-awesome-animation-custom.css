@@ -129,43 +129,53 @@
 
 @-webkit-keyframes pulse {
   0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  33% {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
 
-  50% {
+  66% {
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
   }
 
   100% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
 }
 
 @keyframes pulse {
   0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  33% {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
 
-  50% {
+  66% {
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
   }
 
   100% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
 }
 
 .faa-pulse.animated,
 .faa-pulse.animated-hover:hover,
 .faa-parent.animated-hover:hover > .faa-pulse {
-  -webkit-animation: pulse 3s linear infinite;
-  animation: pulse 3s linear infinite;
+  -webkit-animation: pulse 2s linear infinite;
+  animation: pulse 2s linear infinite;
 }
 
 /* VERTICAL */
