@@ -256,13 +256,16 @@ footer{
 }
 
 /* TRAINING */
-#link-e2n{
-  color: #F8F9F9;
+#link-e2n, #link-arnhembraun{
+  color: inherit;
 }
 
 #link-e2n:hover{
   color: #E95420;
-  opacity: 1;
+}
+
+#link-arnhembraun:hover{
+  color: #F1E2A6;
 }
 
 /* EXPERIENCES */
