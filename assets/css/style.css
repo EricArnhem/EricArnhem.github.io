@@ -292,6 +292,10 @@ footer{
   border-bottom: 2px solid var(--jquery-color);
 }
 
+.sql-tool{
+  border-bottom: 2px solid var(--sql-color);
+}
+
 /* SKILLS */
 #block-skill i{
   margin-right: .6rem;
