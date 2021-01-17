@@ -50,6 +50,10 @@ body{
   max-width: 2000px;
 }
 
+a{
+  color: inherit;
+}
+
 h2{
   border-bottom: 1px solid var(--accent-color);
   text-align: center;
@@ -158,7 +162,6 @@ footer{
 
 #info-links a{
   text-decoration: none;
-  color: inherit;
 }
 
 #info-links a:hover{
@@ -256,12 +259,8 @@ footer{
 }
 
 /* TRAINING */
-#link-e2n, #link-arnhembraun{
-  color: inherit;
-}
-
-#link-e2n:hover{
-  color: #E95420;
+#link-lamanu:hover{
+  color: #2DABE3;
 }
 
 #link-arnhembraun:hover{
