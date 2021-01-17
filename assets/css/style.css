@@ -148,7 +148,8 @@ footer{
 }
 
 #block-info i{
-  margin-right: .6rem;
+  width: 20px;
+  margin-right: .3rem;
 }
 
 #info-personnal{
@@ -177,6 +178,7 @@ footer{
 
 .hobbies-icon-container{
   min-width: 50px;
+  margin-right: .3rem;
   display: inline-block;
   text-align: center;
 }
