@@ -104,24 +104,6 @@ footer{
   font-weight: 600;
 }
 
-#job-name-full, #job-name-compact{
-  font-size: 1.05rem;
-  font-weight: 400;
-}
-
-#job-name-compact{
-  display: none;
-}
-
-@media(max-width: 430px) {
-  #job-name-full{
-    display: none;
-  }
-  #job-name-compact{
-    display: inline;
-  }
-}
-
 @media(max-width: 575px) {
   #navbar-content{
     margin-top: .5rem;
