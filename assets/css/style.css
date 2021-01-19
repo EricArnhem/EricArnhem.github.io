@@ -160,6 +160,10 @@ footer{
   border-bottom: 1px solid var(--accent-color);
 }
 
+#info-job{
+  color: #AFAFAF;
+}
+
 #info-links a{
   text-decoration: none;
 }
