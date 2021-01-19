@@ -211,8 +211,8 @@ footer{
 /* Reduces the width of the date so it can wrap */
 @media (max-width: 400px){
   .training-event::before, .experience-event::before{
-    left: -130px;
-    width: 80px;
+    left: -127px;
+    width: 77px;
   }
 }
 
